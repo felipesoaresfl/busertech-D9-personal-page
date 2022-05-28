@@ -244,14 +244,22 @@ h1 {
   background-color: hsl(281, 61%, 11%);
   border-radius: 80px 80px 0 0;
   width: 100%;
-  height: 800px;
+  height: 600px;
   color: #fff;
   bottom: 0;
   margin: 0;
 }
 
-h1 footer {
+.section-contato__format {
+}
+.footer-icons {
+  margin-top: 100px;
   text-align: center;
-  margin: 0;
-  padding: 120px;
+  letter-spacing: 40px;
+}
+
+i a {
+  color: #ffffff;
+  width: 50px;
+  height: 50px;
 }
