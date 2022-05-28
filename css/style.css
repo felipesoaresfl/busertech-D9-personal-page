@@ -21,7 +21,7 @@ p {
 h1 {
   text-align: center;
   margin: 0;
-  padding: 32px;
+  padding: 120px;
 }
 
 /* tamanho texto*/
@@ -68,6 +68,7 @@ h1 {
   width: 100%;
   position: fixed;
   top: 0;
+  z-index: 1;
 }
 
 .menu__item {
@@ -115,7 +116,7 @@ h1 {
   background-color: hsl(281, 61%, 11%);
   border-radius: 80px;
   width: 100%;
-  height: 2000px;
+  height: 2200px;
   color: #fff;
 }
 
@@ -158,7 +159,7 @@ h1 {
 }
 
 .spotify {
-  padding-top: 210px;
+  padding-top: 150px;
   text-align: center;
 }
 
@@ -166,7 +167,7 @@ h1 {
   background-color: hsl(281, 61%, 11%);
   border-radius: 80px;
   width: 100%;
-  height: 1400px;
+  height: 1500px;
   color: #fff;
 }
 
@@ -221,8 +222,36 @@ h1 {
   cursor: pointer;
   height: 0px;
   position: fixed;
-  right: 25px;
+  right: 150px;
   width: 50px;
-  bottom: 100px;
+  bottom: 200px;
   z-index: 1;
+}
+
+.btn-topo-img {
+  justify-content: center;
+  background-color: #000000;
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+}
+
+.btn-topo-img:hover {
+  box-shadow: 0 0 10px 0 #9746c5 inset, 0 0 10px 4px #9746c5;
+}
+
+.section-contato {
+  background-color: hsl(281, 61%, 11%);
+  border-radius: 80px 80px 0 0;
+  width: 100%;
+  height: 800px;
+  color: #fff;
+  bottom: 0;
+  margin: 0;
+}
+
+h1 footer {
+  text-align: center;
+  margin: 0;
+  padding: 120px;
 }
