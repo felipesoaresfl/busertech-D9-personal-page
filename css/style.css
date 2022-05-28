@@ -57,7 +57,7 @@ h1 {
   width: 100%;
   height: 100%;
 }
-
+/* menu*/
 .menu {
   display: flex;
   justify-content: flex-end;
@@ -92,6 +92,7 @@ h1 {
   transition: all 300ms ease-in-out;
 }
 
+/* intro */
 .section-intro {
   background-image: url("../img/space.gif");
   background-position: center;
@@ -112,11 +113,12 @@ h1 {
   padding-left: 100px;
 }
 
+/* sobre */
 .section-sobre {
   background-color: hsl(281, 61%, 11%);
   border-radius: 80px;
   width: 100%;
-  height: 2200px;
+  height: 100%;
   color: #fff;
 }
 
@@ -124,6 +126,7 @@ h1 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  padding-bottom: 100px;
 }
 
 .sobre__texto {
@@ -148,6 +151,7 @@ h1 {
   border-radius: 30px;
 }
 
+/* section com spotify*/
 .section-stars {
   background-image: url("../img/stars.jpg");
   background-position: center;
@@ -155,7 +159,6 @@ h1 {
   background-size: cover;
   width: 100%;
   height: 1000px;
-  filter: hue-rotate(40deg);
 }
 
 .spotify {
@@ -163,21 +166,31 @@ h1 {
   text-align: center;
 }
 
+/* section habilidades*/
 .section-skills {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.habilidades {
   background-color: hsl(281, 61%, 11%);
   border-radius: 80px;
-  width: 100%;
-  height: 1500px;
-  color: #fff;
+  padding: 150px 400px 150px 400px;
 }
 
 .progress {
   height: 150px;
-  width: 60%;
+  width: 1100px;
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
 }
+
 .progress h4 {
   font-weight: 500;
   font-size: 36px;
@@ -203,21 +216,78 @@ h1 {
   background: #e2e2e2;
   border-radius: 50px;
 }
+
 .progress-bar {
   height: 30px;
-  width: 100%;
+  width: 1100px;
   border-radius: 50px;
   margin-top: 10px;
 }
 
+/* mestre do cubo*/
+.cube-img {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.cube-img img {
+  width: 800px;
+  height: 800px;
+  border-radius: 24px;
+}
+
 .section-portfolio {
-  background-color: hsl(281, 61%, 11%);
-  border-radius: 80px;
   width: 100%;
-  height: 1400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
   color: #fff;
 }
 
+.projetos {
+  background-color: hsl(281, 61%, 11%);
+  border-radius: 80px;
+  display: flex;
+  gap: 5rem;
+  padding: 80px;
+}
+
+.projeto-img {
+  width: 400px;
+  height: 800px;
+}
+
+/*contato*/
+.section-contato {
+  bottom: 0;
+  margin: 0;
+  height: 100%;
+  color: #fff;
+  padding: 80px;
+}
+
+.contato {
+  background-color: hsl(281, 61%, 11%);
+  border-radius: 80px 80px 0 0;
+  padding: 80px;
+}
+
+.footer-icons {
+  margin-top: 100px;
+  text-align: center;
+  letter-spacing: 40px;
+}
+
+i a {
+  color: #ffffff;
+  width: 50px;
+  height: 50px;
+}
+
+/* botão para ir para o topo*/
 .btn-topo {
   cursor: pointer;
   height: 0px;
@@ -238,26 +308,4 @@ h1 {
 
 .btn-topo-img:hover {
   box-shadow: 0 0 10px 0 #9746c5 inset, 0 0 10px 4px #9746c5;
-}
-
-.section-contato {
-  background-color: hsl(281, 61%, 11%);
-  border-radius: 80px 80px 0 0;
-  width: 100%;
-  height: 600px;
-  color: #fff;
-  bottom: 0;
-  margin: 0;
-}
-
-.footer-icons {
-  margin-top: 100px;
-  text-align: center;
-  letter-spacing: 40px;
-}
-
-i a {
-  color: #ffffff;
-  width: 50px;
-  height: 50px;
 }
